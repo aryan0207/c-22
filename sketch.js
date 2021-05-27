@@ -19,7 +19,7 @@ function preload()
 function setup() {
 	createCanvas(800, 600);
 
-	fairyVoice.play();
+	//fairyVoice.play();
 
 	fairy = createSprite(300, 490);
 	fairy.addAnimation("fairyflying",fairyImg);  
